@@ -23,11 +23,11 @@ List<String> gorengGorengan = [
   'tahu bulat',
 ];
 
-List<List<dynamic>> restoA = [
-  [List.from(nasi)],
-  [List.from(sayur)],
-  [List.from(gorengGorengan)],
-  [List.from(minuman)],
+List<List<String>> restoA = [
+  List.from(nasi),
+  List.from(sayur),
+  List.from(gorengGorengan),
+  List.from(minuman),
 ];
 
 List<String> minuman = [
@@ -44,7 +44,7 @@ List<String> dataUntukDihapus = List.from(restoA);
 
 void main() {
   dataUntukDihapus.remove('nasi uduk');
-  dataUntukDihapus.remove('sayur asam');
+  dataUntukDihapus.remove('sayur bayam');
   dataUntukDihapus.remove('mendoan');
   print(restoA);
 }
