@@ -22,14 +22,6 @@ List<String> gorengGorengan = [
   'mendoan',
   'tahu bulat',
 ];
-
-List<List<String>> restoA = [
-  List.from(nasi),
-  List.from(sayur),
-  List.from(gorengGorengan),
-  List.from(minuman),
-];
-
 List<String> minuman = [
   'Fanta',
   'sprite',
@@ -40,11 +32,18 @@ List<String> minuman = [
   'sisri',
   'sosro'
 ];
-List<String> dataUntukDihapus = List.from(restoA);
+
+
+List<List<String>> restoA = [];
+restoA.add(nasi);
+
+
+ 
+List<List<String>> dataUntukDihapus = List.from(restoA);
 
 void main() {
-  dataUntukDihapus.remove('nasi uduk');
-  dataUntukDihapus.remove('sayur bayam');
-  dataUntukDihapus.remove('mendoan');
-  print(restoA);
+  dataUntukDihapus[0].remove('nasi uduk');
+  dataUntukDihapus[1].remove('sayur bayam');
+  dataUntukDihapus[2].remove('mendoan');
+  print(dataUntukDihapus);
 }
