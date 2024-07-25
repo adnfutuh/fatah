@@ -1,23 +1,25 @@
-import 'package:flutter/material.dart';
+List<List<String>> restoA = [
+  [nasi ['nasi goreng',
+    'nasi liwet',
+    'nasi pecak',
+    'nasi daun jeruk',
+    'nasi kuning',
+    'nasi uduk']
+    
+  ],
+  [
+    'Sayur Lodeh',
+    'Sayur Asam',
+    'Capcay',
+    'Sayur nangka',
+    'Sayur pokcoy',
+    'sayur bayam',
+    'sayur kangkung'
+  ],
+  ['Bakwan', ' tempe', 'tahu isi', 'mendoan', 'tahu bulat']
+];
 
-class Fatah extends StatelessWidget {
-  const Fatah({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    // String introduceName = 'my name is ';
-    // String introduceAge = 'mow, my name is';
-    //String introduceCountryOrigin = 'i\'m from';//
-    return const SafeArea(
-      child: Column(
-        children: [
-          Text('wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww'),
-          SizedBox(
-            height: 10,
-          ),
-          Text('wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww'),
-        ],
-      ),
-    );
-  }
+void main() {
+  print(restoA);
 }
