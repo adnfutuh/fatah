@@ -1,7 +1,7 @@
-void name(String firstName, int age) {
+void perkenalan(String firstName, int age) {
   print('Hello nama saya $firstName umur saya $age tahun');
 }
 
 void main() {
-  name('Adnan', 17);
+  perkenalan('Adnan', 17);
 }

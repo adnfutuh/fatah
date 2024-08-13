@@ -1,7 +1,10 @@
-void name(String firstName, int age) {
-  print('Hello nama saya $firstName umur saya $age tahun');
+void perkenalan(String firstName,
+    [String? midleName, String lastName = '', int age = 17]) {
+  print('helo my name is $firstName $midleName $lastName umur $age ');
 }
 
 void main() {
-  name('Adnan', 17);
+  perkenalan('Rizki');
+  perkenalan('Rizki', 'adnan');
+  perkenalan('rizki', 'adnan', 'futuh');
 }
