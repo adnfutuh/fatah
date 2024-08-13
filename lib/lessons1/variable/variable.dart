@@ -38,6 +38,7 @@ void main() {
   const array2 = [1, 2, 3];
 
   array1[0] = 10;
+
   //array2 tidak bisa diubah value nya
   print(array1);
   print(array2);
