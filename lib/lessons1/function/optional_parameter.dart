@@ -6,8 +6,8 @@
 // jika optional tidak ingin nulable,wajib nambahin default value ,yaitu dengan  tambahkan = default value
 
 void perkenalan(String firstName,
-    [String? midleName, String lastName = '', int age = 17]) {
-  print('helo my name is $firstName $midleName $lastName umur $age ');
+    [String? midleName, String? lastName, int age = 17]) {
+  print('helo my name is $firstName $midleName $lastName umur');
 }
 
 void main() {
