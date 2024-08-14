@@ -4,12 +4,11 @@ void main() {
 
   if (kkm >= 90 && absen >= 90) {
     print('anda lulus');
-  }
-  if (kkm >= 80 && absen >= 80) {
+  } else if (kkm >= 80 && absen >= 80) {
     print('anda  tidak lulus');
-  } else if (kkm == 70) {
-    print('anda bukan siswa');
   } else if (kkm >= 70) {
+    print('anda bukan siswa');
+  } else {
     print('nilai kurang baik');
   }
 }
