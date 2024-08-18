@@ -1,5 +1,5 @@
 void main() {
-  var nilai = 'f';
+  var nilai = 'A';
   switch (nilai) {
     case 'A':
       print('nilai terbaik');
