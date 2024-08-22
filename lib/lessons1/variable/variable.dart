@@ -34,9 +34,10 @@ void main() {
   firstName = 'adnan';
   print(firstName);
   print(lastName);
-  final array1 = [1, 2, 3];
+  
+  var array1 = [1, 2, 3];
   const array2 = [1, 2, 3];
-
+  array1 = array2;
   array1[0] = 10;
 
   //array2 tidak bisa diubah value nya
