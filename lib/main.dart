@@ -1,9 +1,9 @@
-int sum(int first, int second) => first + second; //di singkat
-// {
-//   return first + second;
-// }
+void contoh() {}
 
 void main() {
-  var total = sum(100, 10);
-  print(total);
+  void contoh1() {
+    print('aku');
+  }
+
+  contoh1();
 }
