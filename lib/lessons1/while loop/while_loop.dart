@@ -8,3 +8,14 @@ void main() {
     counter++;
   }
 }
+// void main() {
+//   int num = 17;
+//   int count = 0;
+//   while (num > 0) {
+//     num %= 10;
+//     count++;
+
+//     print(num);
+//   }
+// }
+// invinity loop
