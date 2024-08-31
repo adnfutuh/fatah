@@ -17,4 +17,6 @@ void main() {
     ?..username = 'aoshi'
     ..name = 'mukidi sanjaya'
     ..email = 'sanjaya.gmail';
+  print(user.name);
+  print(user2?.name);
 }
