@@ -1,3 +1,4 @@
+//method konkrit
 abstract class Animal {
   String? name;
   void run();
