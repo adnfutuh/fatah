@@ -1,3 +1,6 @@
+//block finally akan selalu dieksekusi baik terjadi exception ataupun tidak
+//sangat cocok digunaka jika ingin melakukan sesuatu ,tidak peduli sukses ataupun gagal
+
 class ValidationException implements Exception {
   String message;
   ValidationException(this.message);
@@ -22,5 +25,7 @@ void main() {
     print("Validation Error : ${exception.message}");
   } on Exception catch (exception) {
     print('Error : ${exception.toString()}');
+  } finally {
+    print('finally');
   }
 }
