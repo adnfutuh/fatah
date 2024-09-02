@@ -4,10 +4,6 @@ class Repository {
   final String _name;
   Repository(this._name);
 
-  dynamic get NoSuchMethod {
-    return noSuchMethod;
-  }
-
   @override
   noSuchMethod(Invocation invocation) {
     var column = MirrorSystem.getName(
