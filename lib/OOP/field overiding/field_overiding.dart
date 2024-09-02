@@ -6,6 +6,8 @@ class Manager {
 }
 
 class Boss extends Manager {
+  @override
+  // ignore: overridden_fields
   String name = 'bakir';
 }
 
