@@ -1,7 +1,7 @@
 //saat memanggil sebuah method yang bisa menyebabkan excepyion ,maka seacara otomatis program akan berhenti
 //jika kita tidak ingin program terhenti,kita perlu menangkap exception tersebut,dan melakukan sesuatu jika terjadi exception
 //block try untuk memanggil method yag menyebabkan exception.
-//block catch untuk melakukan sesuatu jika terjadi exception.
+//block catch untuk melakukan sesuatu jika terjadi exception.jika ingin menangkap object exception nya tambhkan catch.
 
 class ValidationException implements Exception {
   String message;
@@ -21,7 +21,7 @@ class Validation {
 void main() {
   try {
     Validation.validate("", "");
-  } on ValidationException {
-    print("Validation Error");
+  } on ValidationException catch (exception) {
+    print("Validation Error : ${exception.message}");
   }
 }
