@@ -7,7 +7,7 @@ class Manager {
 
 class Boss extends Manager {
   void hello() {
-    print('hello $name,my name is ${this.name}');
+    print('hello $name,my name is $name}');
   }
 }
 
