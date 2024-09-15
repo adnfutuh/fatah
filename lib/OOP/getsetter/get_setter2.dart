@@ -1,4 +1,4 @@
-import 'package:fatah/OOP/getsetter/get_setter1.dart';
+import 'get_setter1.dart';
 
 void main() {
   var rectangle = Rectangle();
