@@ -1,13 +1,6 @@
-var price = 200000;
-void main() {
-  var discount = checkDiscount(price);
-  print('you need to pay ${price - discount}');
-}
+import 'dart:io';
 
-num checkDiscount(num price) {
-  num discount = 0;
-  if (price >= 100000) {
-    discount = 10 / 100 * price;
-  }
-  return discount;
+void main() {
+  var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  print(list[7]);
 }
