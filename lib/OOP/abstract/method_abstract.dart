@@ -1,7 +1,7 @@
 //method konkrit
 abstract class Animal {
   String? name;
-  void run();
+  void run(); 
 }
 
 class Cat extends Animal {
