@@ -11,7 +11,8 @@ Future<String> lastName() async {
 }
 
 Future<String> sayHello(String name) async {
-  throw Exception("ups");
+  return "Hello $name";
+  // throw Exception("ups");
 }
 
 Future<void> say() async {
