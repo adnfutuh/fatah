@@ -3,7 +3,7 @@ Stream<String> names() {
 }
 
 Future<String> fullName() async {
-  String name = 'a';
+  String name = '';
   await for (var value in names()) {
     name += "$value ";
   }
