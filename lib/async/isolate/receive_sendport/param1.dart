@@ -12,8 +12,8 @@ Future<void> numbers(SendPort sendPort) async {
 void main() {
   final receive = ReceivePort();
   Isolate.spawn(numbers, receive.sendPort);
-  receive.listen(
-    (message) => print(message),
-  );
+  receive.take(5).listen(
+        (message) => print(message),
+      );
   print("done");
 }
