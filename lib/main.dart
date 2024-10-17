@@ -16,10 +16,15 @@ class Customer {
 }
 
 void main() {
-  var customer = Customer('adnan', CustomerLevel.vip);
-  print(customer.name);
-  print(customer.level);
-  print(customer.level.name);
-  print(customer.level.title);
+  // var customer = Customer('adnan', CustomerLevel.vip);
+  print(CustomerLevel);
+  // print(customer.level);
+  // print(customer.level.name);
+  // print(customer.level.title);
   print(CustomerLevel.values); //values=mengambil semua data menggunakan list
+  print(CustomerLevel.vip); //values=mengambil semua data menggunakan list
+  print(CustomerLevel
+      .regular.name); //values=mengambil semua data menggunakan list
+  print(CustomerLevel
+      .regular.title); //values=mengambil semua data menggunakan list
 }
