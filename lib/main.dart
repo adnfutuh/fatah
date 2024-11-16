@@ -3,6 +3,7 @@ enum CustomerLevel {
   regular(title: 'Regular'),
   premium(title: 'Premium'),
   vip(title: 'Vip'),
+  raja(title: 'Raja'),
   ;
 
   final String title;
